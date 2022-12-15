@@ -1,0 +1,11 @@
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\obj\Debug\Ukol9Zamestanec.csproj.AssemblyReference.cache
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\obj\Debug\Ukol9Zamestanec.csproj.SuggestedBindingRedirects.cache
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\obj\Debug\Ukol9Zamestanec.Form1.resources
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\obj\Debug\Ukol9Zamestanec.Properties.Resources.resources
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\obj\Debug\Ukol9Zamestanec.csproj.GenerateResource.cache
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\obj\Debug\Ukol9Zamestanec.csproj.CoreCompileInputs.cache
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\bin\Debug\Ukol9Zamestanec.exe.config
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\bin\Debug\Ukol9Zamestanec.exe
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\bin\Debug\Ukol9Zamestanec.pdb
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\obj\Debug\Ukol9Zamestanec.exe
+C:\Users\A\OneDrive\Dokumenty\3.Ročník\OOP\Zamestnanec\Ukol9Zamestanec\Ukol9Zamestanec\obj\Debug\Ukol9Zamestanec.pdb

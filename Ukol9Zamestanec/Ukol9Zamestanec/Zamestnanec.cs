@@ -8,11 +8,12 @@ namespace Ukol9Zamestanec
 {
     class Zamestnanec
     {
-        string jmeno;
-        string prijmeni;
-        DateTime datumNastupu;
-        int odpracovanehodiny = 0;
-        int hodinovaMzda;
+        protected string jmeno;
+        protected string prijmeni;
+        protected DateTime datumNastupu;
+
+        protected int odpracovanehodiny = 0;
+        protected int hodinovaMzda;
         public int HodinovaMzda { get => hodinovaMzda; }
 
         public Zamestnanec(string jmeno, string prijmeni, DateTime datumNastupu, int hodinovaMzda)
@@ -35,20 +36,20 @@ namespace Ukol9Zamestanec
             odpracovanehodiny += hodiny;
         }
 
-        public int VypoctiMzdu()
+        public virtual int VypoctiMzdu()
         {
             return odpracovanehodiny * HodinovaMzda;
         }
 
-        public string Vypis()
+        public virtual string Vypis()
         {
-            return String.Format("Jmeno: {0} \n " +
-                                 "Prijmeni: {1} \n " +
-                                 "Datum Nastupu :{2} \n " +
+            return String.Format("\nJmeno: {0} \n" +
+                                 "Prijmeni: {1} \n" +
+                                 "Pocet dni v praci :{2} \n" +
                                  "Odpracovane Hodiny :{3} \n"  +
                                  "hodinova mzda: {4} \n" +
                                  "Vypoctena Mzda : {5}\n" +
-                                 "",jmeno,prijmeni,datumNastupu,odpracovanehodiny,HodinovaMzda,VypoctiMzdu());
+                                 "",jmeno,prijmeni,(int)PocetDni(),odpracovanehodiny,HodinovaMzda,VypoctiMzdu());
         }
 
     }
