@@ -12,14 +12,15 @@ namespace Ukol9Zamestanec
         string titul;
         public Vedouci(string jmeno, string prijmeni, DateTime datumNastupu, int hodinovaMzda,int priplatek, string titul) : base(jmeno,prijmeni,datumNastupu,hodinovaMzda)
         {
-            priplatekZaVedeni= priplatek;
+            priplatekZaVedeni = priplatek;
             this.titul= titul;
             base.hodinovaMzda += priplatekZaVedeni;
         }
 
         public override int VypoctiMzdu()
         {
-            return (base.VypoctiMzdu() + priplatekZaVedeni);
+            // return (base.VypoctiMzdu() + priplatekZaVedeni);
+            return odpracovanehodiny * HodinovaMzda;
         }
 
         public override string Vypis()

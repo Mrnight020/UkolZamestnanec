@@ -28,7 +28,7 @@ namespace Ukol9Zamestanec
             }
             if (radioButton2.Checked)
             {
-                vedoucipracant = new Vedouci(textBox1.Text, textBox2.Text, dateTimePicker1.Value, (int)numericUpDown1.Value,100,"Mudr.");
+                vedoucipracant = new Vedouci(textBox1.Text, textBox2.Text, dateTimePicker1.Value, (int)numericUpDown1.Value,100,"Ing.");
                 vedoucipracant.OdpracujHodiny((int)numericUpDown2.Value);
             }
         }
@@ -37,12 +37,17 @@ namespace Ukol9Zamestanec
         {
             if (radioButton1.Checked)
             {
-                MessageBox.Show(pracant.Vypis());
+                label6.Text = pracant.Vypis();
             }
             if (radioButton2.Checked)
             {
-                MessageBox.Show(vedoucipracant.Vypis());
+                label6.Text = vedoucipracant.Vypis();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Vedouci má titul -  Ing.\nOproti zaměstnanci vydělává o 100kc na hodinu více");
         }
     }
 }
